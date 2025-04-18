@@ -1,5 +1,5 @@
 # Overview
-This script to run convergent variant finder (ConVarFinder) analysis to idenify convergent single sequence variants of target species which share a convergent trait you are interested in. Based on this script and demo data, you can find ConSAVs of avian vocal learners mutually exclusive to amino acids of vocal non-learners.
+This script to run convergent variant finder (ConVarFinder) analysis to idenify convergent single sequence variants of target species which share a convergent trait you are interested in. Based on this script and demo data, you can find convergent variants of avian vocal learners mutually exclusive to amino aicds, codons, and nucleotides of vocal non-learners.
 ## Input Files
 It needs multiple peptide sequence aglinments as input files (as [fasta](https://en.wikipedia.org/wiki/FASTA_format) format).
 ## Variables in Script
