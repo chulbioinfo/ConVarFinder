@@ -16,7 +16,7 @@ It needs multiple peptide sequence aglinments as input files (as [fasta](https:/
 -op=   output path  
 
 ## Output Files
-It generates a text file (.txt) as a output with a summary of CSAV analysis and the full amino acids of whole species list at identified ConVar sites.
+It generates a text file (.txt) as a output with a summary of ConVarFinder analysis and the full amino acids of whole species list at identified sites with convergent Variants.
 - - -
 
 # System Requirments
@@ -42,7 +42,7 @@ This script has no dependency in python ver 3.13.
 <code>
 git clone https://github.com/chulbioinfo/ConVarFinder/
 cd ConVarFinder/bin/
-Python ConVarFinder.py [options]
+python ConVarFinder.py [options]
 </code>
 </pre>
 
