@@ -17,13 +17,13 @@
 
 ---
 
-## Quick Start
+## Quick Start with Example Files
 
 ```bash
-python ConVarFinder.py -seq=example.fasta -tree=example.tre -tl=speciesA,speciesB
+python ConVarFinder.py -seq=10050_anc.fasta -tree=10050_anc.tre -tl=TAEGU,GEOFO,CORBR,MELUN,NESNO,CALAN -no-outgroup-prompt
 ```
 
-You will be prompted to select outgroup species (optional).
+If you do not use '-no-outgroup-prompt', you will be prompted to select outgroup species (optional).
 
 ---
 
@@ -31,9 +31,7 @@ You will be prompted to select outgroup species (optional).
 
 > **Important:**  
 > - The **sequence file** (`-seq`) must include ancestral sequences inferred using tools such as **RAxML**, with internal node names representing ancestral nodes.  
-> - The **tree file** (`-tree`) must be a **binary cladogram** (no branch lengths) in **Newick format**, with all internal nodes labeled.
-> - Please check the example sequence and tree files
-
+> - The **tree file** (`-tree`) must be a **binary cladogram** (no branch lengths) in **Newick format**, with all internal nodes labeled.  
 
 - **FASTA file** (`-seq=`): Coding sequences for all species. Must be aligned and codon-correct.
 - **Newick tree file** (`-tree=`): Phylogenetic tree describing species relationships.
@@ -56,6 +54,7 @@ Each row corresponds to a codon site with target-specific substitutions, with an
 - Evolutionary direction (e.g., `PLE`, `CON`, `DIV`, `PAR`, `MIX`)
 - Codon and amino acid states for each species
 - Transition paths across ancestral nodes
+
 
 ---
 
@@ -90,6 +89,19 @@ Each row corresponds to a codon site with target-specific substitutions, with an
 
 ---
 
+## Preparing Input Files (`Make_inputs/`)
+
+The `Make_inputs/` directory contains helper scripts used to prepare sequence and tree files  
+required for running ConVarFinder. This includes steps such as:
+
+- Extracting aligned coding sequences from genome annotations
+- Performing ancestral state reconstruction using tools like **RAxML**
+- Formatting outputs into compatible `.fasta` and `.tre` files
+
+These scripts ensure that input files contain both extant and inferred ancestral sequences, and that tree files are in binary cladogram format.
+
+---
+
 ## Dependencies
 
 - Python ≥ 3.6
@@ -97,18 +109,9 @@ Each row corresponds to a codon site with target-specific substitutions, with an
 
 ---
 
-## Legacy Paper-Related Analysis
-
-The `paper_analysis/` folder contains scripts and data used for initial analyses and visualizations associated with our published manuscript.  
-These include early runs of CSAV detection, comparative analyses, and data summaries used to evaluate convergent evolution in various bird lineages.
-
-These materials are preserved here for transparency and reproducibility of the original results.
-
----
-
 ## Author
 
-- **Chul Lee**, Seoul National University (http://biopop.snu.ac.kr/), Rockefeller University (https://www.jarvislab.net/)  
+- **Chul Lee**, Rockefeller University  
 - Contact: [chul.bioinfo@gmail.com](mailto:chul.bioinfo@gmail.com)  
 - GitHub: [@chulbioinfo](https://github.com/chulbioinfo/ConVarFinder)
 
