@@ -108,7 +108,7 @@ These materials are preserved here for transparency and reproducibility of the o
 
 ## Author
 
-- **Chul Lee**, Seoul National University, Rockefeller University  
+- **Chul Lee**, Seoul National University (http://biopop.snu.ac.kr/), Rockefeller University (https://www.jarvislab.net/)  
 - Contact: [chul.bioinfo@gmail.com](mailto:chul.bioinfo@gmail.com)  
 - GitHub: [@chulbioinfo](https://github.com/chulbioinfo/ConVarFinder)
 
