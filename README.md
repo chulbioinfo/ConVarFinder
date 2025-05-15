@@ -90,7 +90,7 @@ Each row corresponds to a codon site with target-specific substitutions, with an
 
 ---
 
-## 🛠 Dependencies
+## Dependencies
 
 - Python ≥ 3.6
 - No third-party libraries required
@@ -108,7 +108,7 @@ These materials are preserved here for transparency and reproducibility of the o
 
 ## Author
 
-- **Chul Lee**, Rockefeller University  
+- **Chul Lee**, Seoul National University, Rockefeller University  
 - Contact: [chul.bioinfo@gmail.com](mailto:chul.bioinfo@gmail.com)  
 - GitHub: [@chulbioinfo](https://github.com/chulbioinfo/ConVarFinder)
 
