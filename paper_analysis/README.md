@@ -17,7 +17,7 @@ This repository contains the code used for various analyses in the paper, organi
 - `10.PositiveSelection/`: Positive selection analysis code
 - `11.DifferentialExpression/`: Differential expression analysis code
 - `12.B10K_2nd_363birds/`: Analysis code for 363 bird species from the B10K project
-- `12.HumanSAV/`: Human SAV (Sequence Analysis and Visualization) related code
+- `13.AncSeq/`: Ancestral sequence estimation (to generate inputs of ConVarFinder)
 
 ## Usage
 
