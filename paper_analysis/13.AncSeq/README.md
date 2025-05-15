@@ -124,12 +124,10 @@ SOFTWARE.
 
 ## Author
 
-Chul Lee
+Chul Lee Ph.D.
 
 Postdoctoral Associate
-
 Laboratory of Neurogenetics of Language (http://www.jarvislab.net/)
-
 Rockefeller University
 
 Contact: chul.bioinfo@gmail.com  
