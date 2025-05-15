@@ -45,7 +45,7 @@ If you do not use '-no-outgroup-prompt', you will be prompted to select outgroup
 Tab-delimited `.txt` file in the format:
 
 ```
-ConVarFinder_speciesA-speciesB.txt
+ConVarFinder_TAEGU-GEOFO-CORBR-MELUN-NESNO-CALAN.txt (ConVarFinder_speciesA-speciesB.txt)
 ```
 
 Each row corresponds to a codon site with target-specific substitutions, with annotations including:
