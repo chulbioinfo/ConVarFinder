@@ -91,14 +91,15 @@ Each row corresponds to a codon site with target-specific substitutions, with an
 
 ## Preparing Input Files (`Make_inputs/`)
 
-The `Make_inputs/` directory contains helper scripts used to prepare sequence and tree files  
-required for running ConVarFinder. This includes steps such as:
+The `Make_inputs/` directory contains helper scripts for preparing the input sequence and tree files  
+required to run ConVarFinder. The preparation workflow typically involves:
 
-- Extracting aligned coding sequences from genome annotations
-- Performing ancestral state reconstruction using tools like **RAxML**
-- Formatting outputs into compatible `.fasta` and `.tre` files
+- **Input:** aligned coding sequences of an orthologous gene set and a Newick-formatted tree
+- **Ancestral state reconstruction** using tools such as **RAxML**
+- **Formatting** the outputs into compatible `.fasta` (sequences) and `.tre` (tree) files
 
-These scripts ensure that input files contain both extant and inferred ancestral sequences, and that tree files are in binary cladogram format.
+These scripts ensure that the final input files include both extant and inferred ancestral sequences,  
+and that the tree files are binary cladograms with internal node names and no branch lengths.
 
 ---
 
