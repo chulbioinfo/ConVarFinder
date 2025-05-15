@@ -124,8 +124,7 @@ SOFTWARE.
 
 ## Author
 
-Chul Lee Ph.D.
-
+Chul Lee
 Postdoctoral Associate
 Laboratory of Neurogenetics of Language (http://www.jarvislab.net/)
 Rockefeller University
