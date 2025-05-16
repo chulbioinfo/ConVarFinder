@@ -5,10 +5,10 @@ This repository contains the code used for various analyses in the paper, organi
 ## Directory Structure
 
 - `0.rawdata/`: Directory containing raw data files
-- `01.CSAV/`: Convergent Single Amino acid Variant analysis code
+- `01.CSAV/`: Convergent Single Amino acid Variant analysis code (integrated into ConVarFinder)
 - `02.PhylogeneticFeatures/`: Phylogenetic features analysis code
-- `03.CSCV/`: Convergent Single Codon Variant analysis code
-- `04.CSNV/`: Convergent Single Nucleotide Variant analysis code
+- `03.CSCV/`: Convergent Single Codon Variant analysis code (integrated into ConVarFinder)
+- `04.CSNV/`: Convergent Single Nucleotide Variant analysis code (integrated into ConVarFinder)
 - `05.Intersection_CSAV_CSCV_CSNV/`: Code for analyzing intersections of CSAV, CSCV, and CSNV results
 - `06.CorrelationPlots/`: Correlation analysis and visualization code
 - `07.CodonLogo/`: Codon logo visualization
