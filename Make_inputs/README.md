@@ -124,7 +124,9 @@ SOFTWARE.
 
 ## Author
 
-Chul Lee Rockefeller University
+Chul Lee
+
+Rockefeller University
 
 Contact: chul.bioinfo@gmail.com  
 GitHub: @chulbioinfo 
